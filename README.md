@@ -13,13 +13,13 @@ pyenv virtualenv 3.9.2 pets-api
 pyenv activate pets-api
 ```
 
-2. Configurações Essenciais
+2. Configurações Essenciais:
 
 ```sh
 pip install -r requirements-dev.txt
 export SQLALCHEMY_DATABASE_URL=postgresql://dssseuhz:XkETRS4ZdJDT6cc1sZOI8VwaxkrqgdSr@tuffi.db.elephantsql.com:5432/dssseuhz
 ```
-3. Execução
+3. Execução:
 
 ```
 make run
